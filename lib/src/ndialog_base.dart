@@ -237,7 +237,8 @@ class BlurDialogBackground extends StatelessWidget {
           return;
         },
         child: Stack(
-            overflow: Overflow.clip,
+            //overflow: Overflow.clip,
+            clip: Clip.none,
             alignment: Alignment.center,
             children: <Widget>[
               GestureDetector(
